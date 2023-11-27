@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orkut Login</title>
+</head>
+<body>
+    <div>
+        <footer><img id="img1" src="./img/orkut-logo.png"> </footer>
+    </div>
+    <div id="container" class="container">
+        <div class="fields">
+            <div class="fields_title">
+                <p> </p>
+                <p id="acesso">
+                    <br>
+                    Acesse o <span style="color: #E8258E; font-weight: bold;">orkut</span> com sua conta <span style="color: rgb(41, 41, 238);">G</span><span style="color: rgb(246, 17, 231)">o</span><span style="color: rgb(255, 196, 0)">o</span><span style="color: rgb(41, 41, 238)">g</span><span style="color: rgb(6, 153, 26)">l</span><span style="color: rgb(246, 17, 231)">e</span>
+                </p>
+            </div>
+            <div class="fields__textboxs">
+                <input type="email" placeholder="E-mail ou número de celular" name="" id="email" required>
+                <p></p>
+                <input type="password" placeholder="Digite sua senha" name="" id="password" required>
+            </div>
+            <p></p>
+            <div class="fields__remember">
+                <input type="checkbox" name="" id="remember">
+                <label for="field__remember">Lembrar sempre do meu acesso</label>
+            </div>
+            <p></p>
+            <div class="fields__buttons">
+                <a href="./perfil_orkut.html"><button class="orkut-button-bg" type="submit" id="btn-login">ENTRAR</button></a>
+            </div>
+            <div id="senha" class="fields__recovery">
+                <a>Esqueci minha senha</a>
+            </div>
+            <p></p>
+            <div id="conta" class="fields__create">
+                <a>Não tem conta? <span style="color: #E8258E">Criar agora</span></a>
+            </div>
+            <p></p>
+        </a>
+        </div>
+    </div>
+
+</body>
+<style>
+    body {
+        background-color: rgb(249, 186, 249);
+        margin: 0;
+        font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    }
+    a {
+        text-decoration: none;
+    }
+    #img1 {
+        margin-top: 1%;
+        margin-left: 42%;
+        width: 15%;
+        vertical-align: center;
+    }
+    #container {
+        width: 80%;
+        max-width: 550px;
+        height: 70vh;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 1%;
+        box-shadow: 10px 9px 24px 3px rgba(64, 61, 61, 0.69);
+        -webkit-box-shadow: 10px 9px 24px 3px rgba(64, 61, 61, 0.69);
+    }
+    #btn-login {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-bottom: 5px;
+        padding: 10px;
+        border: none;
+        color: #FFFFFF;
+        border-radius: 5px;
+        font-weight: bold;
+        background-color: #E8258E;
+        cursor: pointer;
+    }
+    .fields__textboxs {
+        display: flex;
+        flex-direction: column;
+    }
+    #senha {
+        margin-left: 63%;
+        font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+        color: rgb(109, 105, 105);
+        cursor: pointer;
+    }
+    #conta {
+        margin-top: 5%;
+        text-align: center;
+        font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+    }
+    #acesso {
+        text-align: center;
+        font-size: 125%;
+        margin-bottom: 20px;
+        color: rgb(90, 88, 88);
+        font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    }
+    #email {
+        margin-left: auto;
+        margin-right: auto;
+        height: 50px;
+        width: 80%;
+        border: 1px solid silver;
+        border-radius: 10px;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;          
+    }
+    #password {
+        margin-left: auto;
+        margin-right: auto;
+        height: 50px;
+        width: 80%;
+        border: 1px solid silver;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #remember {
+        margin-left: 55px;
+        font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+        color: rgb(109, 105, 105)
+    }
+    span {
+        font-weight: bold;
+    }
+</style>
+</html>
